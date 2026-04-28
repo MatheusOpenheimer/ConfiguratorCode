@@ -1,0 +1,9 @@
+pyinstaller ^
+  --onefile ^
+  --windowed ^
+  --name "Configurador_CBR2D-V" ^
+  --add-data "assets;assets" ^
+  --add-data "logic;logic" ^
+  --add-data "utils;utils" ^
+  --add-data "zint;zint" ^
+  index.py
