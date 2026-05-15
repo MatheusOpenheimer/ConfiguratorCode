@@ -24,24 +24,13 @@ def verificar_leitor_usb():
 
     texto = proc.stdout
 
-    # 🔎 pega descrição entre {}
-    desc_match = re.search(r"\{(.+?)\}", texto)
-
-    # 🔎 pega NS corretamente
+    modelo_match = re.search(r"(CBR2D-V)", texto)
     instance_match = re.search(
-        r"USB\\VID_060C&PID_0660\\([^\s\r\n]+)",
+        r"USB\\VID_060C&PID_0660\\([^\r\n]+)",
         texto
     )
 
-    if desc_match and instance_match:
-        descricao_completa = desc_match.group(1).strip()
-
-        # pega só o modelo (após vírgula)
-        partes = descricao_completa.split(",")
-        modelo = partes[-1].strip()
-
-        ns = instance_match.group(1).strip()
-
-        return modelo, ns
+    if modelo_match and instance_match:
+        return modelo_match.group(1), instance_match.group(1)
 
     return None, None

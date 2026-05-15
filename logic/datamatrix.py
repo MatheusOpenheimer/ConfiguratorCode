@@ -18,7 +18,8 @@ def gerar_datamatrix(campo_ns, label_img, botao_verificar, final, app, Fabricant
     if not ns:
         return
 
-    codigo = f"802002{Fabricante};802000{Modelo};811005{ns}."
+    codigo = f"800010;802002{Fabricante};802000{Modelo};811005{ns};800011;800006."
+                
 
     # Caminhos corretos
     caminho_img = caminho_recurso("assets/codigo.png")
