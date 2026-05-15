@@ -8,9 +8,11 @@ Ao concluir uma configuração ou verificação, a aplicação permite retornar 
 
 O projeto foi desenvolvido para a ***Custom Brasil***, com foco em otimizar processos, diminuir falhas humanas e aumentar a eficiência na preparação de equipamentos, sendo distribuído como um executável para facilitar a instalação e uso no ambiente produtivo.
 
-<img width="550" height="681" alt="image" src="https://github.com/user-attachments/assets/06c76cd1-1d33-4ee3-b4c0-b9ff72d0d403" />
-<img width="550" height="678" alt="image" src="https://github.com/user-attachments/assets/cae30821-ab62-49bd-aa1b-afd2f3d0182f" />
-<img width="550" height="677" alt="image" src="https://github.com/user-attachments/assets/617fc645-feac-4ecf-bfde-7cb64d2ac493" />
-<img width="549" height="677" alt="image" src="https://github.com/user-attachments/assets/9223023d-6725-4549-a1ea-f3ee8f321ad5" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/06c76cd1-1d33-4ee3-b4c0-b9ff72d0d403" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/cae30821-ab62-49bd-aa1b-afd2f3d0182f" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/7d8fcc2d-9e3b-4e92-9475-525bd6421a5e" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/617fc645-feac-4ecf-bfde-7cb64d2ac493" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/9223023d-6725-4549-a1ea-f3ee8f321ad5" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/3859b4bd-149c-4da3-b335-91306754fb2d" />
 
 
